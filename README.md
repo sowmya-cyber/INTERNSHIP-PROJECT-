@@ -21,13 +21,15 @@ For evaluation purposes, the regression algorithms are considered.
     4. Preprocess the dataset-
           
 
-      [^a]:  Checked for null values
+      [a]:  Checked for null values
         
-      [^b]:  Label encoding is performed for the feature named species(3)
+      [b]:  Label encoding is performed for the feature named species(3)
         
-      [^c]: Standard scaling is done for normalization
+      [c]: Standard scaling is done for normalization
         
-     5. Imputation is done for missing values, Mean imputation is performed for 2 features, and for the other 2 features,it is imputed with the corresponding values 
+     5. Imputation is done for missing values
+     
+       Mean imputation is performed for 2 features and for the other 2 features, it is imputed with the corresponding values 
      
      6. Feature reduction is performed using F_regression (correlation with target),Decision tree(Tree-Based)
             [ PCA is used for dimensionality reduction]
