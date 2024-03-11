@@ -19,12 +19,13 @@ For evaluation purposes, the regression algorithms are considered.
     3. Upload the JSON set for evaluating
     
     4. Preprocess the dataset-
-    
-        Checked for null values
+          
+
+      [^a]:  Checked for null values
         
-        Label encoding is performed for the feature named species(3)
+      [^b]:  Label encoding is performed for the feature named species(3)
         
-        Standard scaling is done for normalization
+      [^c]: Standard scaling is done for normalization
         
      5. Imputation is done for missing values, Mean imputation is performed for 2 features, and for the other 2 features,it is imputed with the corresponding values 
      
@@ -33,7 +34,7 @@ For evaluation purposes, the regression algorithms are considered.
             
      7. Finally regression is performed with various regression algorithms.
      
-          Hyperparameter tuning is performed using a grid search
+          Hyperparameter tuning according to the algorithm is performed using a grid search
           
       8. For evaluation performance metrics like MSE, RMSE is calculated.
       
